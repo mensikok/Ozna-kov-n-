@@ -19,8 +19,8 @@ Proč Enum? Zajišťuje, že hodnota oboru bude vždy pocházet z definovaného 
 ### C. Globální stav modulu
 
 Kód používá modulární (globální) stav držený v privátních proměnných:
-  - _studenti: List[Student]: Seznam pro uchování všech studentů, užitečný pro iteraci.
-  - _mapa_podle_rc: Dict[str, Student]: Slovník (hash mapa), kde klíčem je unikátní rodné číslo.
+  - `_studenti: List[Student]`: Seznam pro uchování všech studentů, užitečný pro iteraci.
+  - `_mapa_podle_rc: Dict[str, Student]`: Slovník (hash mapa), kde klíčem je unikátní rodné číslo.
 
 
 ## 2. Optimalizace a Výkon
