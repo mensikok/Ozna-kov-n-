@@ -8,11 +8,11 @@ Váš kód používá tři klíčové prvky pro organizaci dat a chování:
 
 ### A. Třída Student (dataclass)
 
-*Proč dataclass?* Zjednodušuje vytváření třídy, jejíž hlavní účel je držet data. Automaticky generuje metody jako -__init__, __repr__ a __eq__.
+*Proč dataclass?* Zjednodušuje vytváření třídy, jejíž hlavní účel je držet data. Automaticky generuje metody jako -`__init__`, `__repr__` a `__eq__`.
 
 **Validace (__post_init__):** Tato speciální metoda se volá po inicializaci. Zajišťuje, že data, se kterými pracujeme, jsou vždy validní *(např. jméno není prázdné a obor je správný Enum)*.
 
-### B. `Enum` Obor
+### B. Enum Obor
 
 *Proč `Enum`?* Zajišťuje, že hodnota oboru bude vždy pocházet z definovaného seznamu (INFORMATIKA, MATEMATIKA...). Tím se vyhnete překlepům.
 
