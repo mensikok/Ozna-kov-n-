@@ -8,13 +8,13 @@ Váš kód používá tři klíčové prvky pro organizaci dat a chování:
 
 ### A. Třída Student (dataclass)
 
-Proč dataclass? Zjednodušuje vytváření třídy, jejíž hlavní účel je držet data. Automaticky generuje metody jako -__init__, __repr__ a __eq__.
+*Proč dataclass?* Zjednodušuje vytváření třídy, jejíž hlavní účel je držet data. Automaticky generuje metody jako -__init__, __repr__ a __eq__.
 
 **Validace (__post_init__):** Tato speciální metoda se volá po inicializaci. Zajišťuje, že data, se kterými pracujeme, jsou vždy validní *(např. jméno není prázdné a obor je správný Enum)*.
 
-### B. Enum Obor
+### B. `Enum` Obor
 
-Proč Enum? Zajišťuje, že hodnota oboru bude vždy pocházet z definovaného seznamu (INFORMATIKA, MATEMATIKA...). Tím se vyhnete překlepům.
+*Proč `Enum`?* Zajišťuje, že hodnota oboru bude vždy pocházet z definovaného seznamu (INFORMATIKA, MATEMATIKA...). Tím se vyhnete překlepům.
 
 ### C. Globální stav modulu
 
@@ -42,4 +42,4 @@ Cíl je pochopit a úspěšně spustit příklad použití:
     - Funguje vyhledávání podle RC (najdi_studenta_podle_rc)?
 3. Bonus: Zkuste implementovat novou funkci:
     - `pocet_studentu_dle_oboru() -> Dict[Obor, int]`: Funkce, která vrátí slovník, kde klíčem je Obor a hodnotou je počet studentů v daném oboru.
-4. Commit: Po dokončení a ověření funkčnosti nezapomeňte na git add, git commit a git push.
+4. Commit: Po dokončení a ověření funkčnosti nezapomeňte na `git add`, `git commit` a `git push`.
