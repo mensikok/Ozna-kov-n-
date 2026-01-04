@@ -1,7 +1,6 @@
 # Rozbor kódu: Modul pro správu studentů
 
-Dnes se podíváme na řešení vaší úlohy, které demonstruje, jak v Pythonu efektivně spravovat a organizovat data.Tento kód je skvělým příkladem, jak modulární přístup  
-a správné datové struktury (jako je slovník pro rychlé vyhledávání) vedou k přehlednému a výkonnému kódu.
+Dnes se podíváme na řešení vaší úlohy, které demonstruje, jak v Pythonu efektivně spravovat a organizovat data. Tento kód je skvělým příkladem, jak modulární přístup a správné datové struktury (jako je slovník pro rychlé vyhledávání) vedou k přehlednému a výkonnému kódu.
 
 ## 1. Architektura a Datové struktury
 
