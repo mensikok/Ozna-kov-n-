@@ -27,7 +27,7 @@ Kód používá modulární (globální) stav držený v privátních proměnný
 
 Tento přístup s dvěma datovými strukturami je zvolen záměrně pro výkon.
 
-**Efektivní vyhledávání:** Funkce najdi_studenta_podle_rc(rc) využívá slovník `_mapa_podle_rc`. Vyhledávání ve slovníku probíhá v průměrném čase O(1) (konstantní čas), což znamená, že rychlost vyhledání nezávisí na počtu studentů. 
+**Efektivní vyhledávání:** Funkce `najdi_studenta_podle_rc(rc)` využívá slovník `_mapa_podle_rc`. Vyhledávání ve slovníku probíhá v průměrném čase O(1) (konstantní čas), což znamená, že rychlost vyhledání nezávisí na počtu studentů. 
 - Příklad `najdi_studenty_se_stejnym_jmenem:` Zde je vidět, jak slovník slouží k agregaci dat. Projdeme seznam jednou a vkládáme studenty do slovníku, kde klíčem je normalizované jméno.
 
 ___
